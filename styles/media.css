@@ -1,0 +1,39 @@
+@media (max-width:1140px) {
+    .commerce__box,
+    .custom__box,
+    .footer__box {
+        justify-content: center;
+    }
+}
+
+@media (max-width:950px) {
+    .header__container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header__content {
+        height: 400px;
+    }
+}
+
+@media (max-width:576px) {
+    .header__list {
+        justify-content: center;
+        gap: 20px;
+    }
+    .header__content-title {
+        font-size: 30px;
+        padding: 5px 20px;
+    }
+    .commerce__info-title,
+    .intro__box-title,
+    .custom__info-title {
+        font-size: 24px;
+    }
+    .footer__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
